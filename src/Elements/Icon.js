@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-class Icon extends Component {
+export default class Icon extends Component {
   static defaultProps = {
-    color: "black"
+    color: 'black'
   };
 
   render() {
     switch (this.props.name) {
-      case "close":
+      case 'close':
         return (
           <svg
             x="0px"
@@ -26,5 +26,3 @@ class Icon extends Component {
     }
   }
 }
-
-export default Icon;
